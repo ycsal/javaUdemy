@@ -150,5 +150,8 @@ public class Main {
 					
 				}
 			}
+			if (ex < 1 && ex > 6) {
+				sc.close();
+			}
 		}
 }
